@@ -28,7 +28,6 @@ def find_winner(user_move, computer_move):
     else:
         return "You lose!"
 
-
 def start_game():
     user_move = get_user_entry()
     computer_move = generate_computer_move()
