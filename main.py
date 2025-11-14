@@ -1,7 +1,9 @@
-from game import get_user_entry
+from game import start_game
+
 
 def main():
-    get_user_entry()
-    
+    start_game()
+
+
 if __name__ == "__main__":
     main()
